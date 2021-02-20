@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'myapp.apps.MyappConfig',
+    'd9lru6850sc9qu.apps.MyappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myapp', 
-        'USER': 'postgres', 
-        'PASSWORD': 'Raut@333',
-        'HOST': '127.0.0.1', 
+        'NAME': 'd9lru6850sc9qu', 
+        'USER': 'hqmgmityzltfbq', 
+        'PASSWORD': 'd76aa55075a13dd816e226bbcb5156b70ee15739fac5934037c0ad6c9074bab1',
+        'HOST': 'ec2-3-223-72-172.compute-1.amazonaws.com', 
         'PORT': '5432',
     }
 }
